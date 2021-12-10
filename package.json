@@ -1,0 +1,25 @@
+{
+  "name": "fruit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actavioDen/Fruit.git"
+  },
+  "author": "Den",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actavioDen/Fruit/issues"
+  },
+  "homepage": "https://github.com/actavioDen/Fruit#readme",
+"devDependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1"
+  }
+}
