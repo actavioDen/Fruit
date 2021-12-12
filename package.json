@@ -16,7 +16,7 @@
     "url": "https://github.com/actavioDen/Fruit/issues"
   },
   "homepage": "https://github.com/actavioDen/Fruit#readme",
-"devDependencies": {
+  "devDependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
