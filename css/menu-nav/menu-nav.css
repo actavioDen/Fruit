@@ -1,15 +1,21 @@
-.menu-nav{
-    padding: 0;
-    padding: 0 130px;
-    
-    grid-column: span 7;
-    
-    display: flex;
-    flex-wrap: wrap;
+.menu-nav {
+  padding: 0;
+  padding: 0 130px;
+  margin: 0;
 
-    list-style: none;
+  grid-column: span 7;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+  color: var(--dark-green);
+  font-family: Poppins;
+  font-weight: normal;
+  line-height: 21.09px;
+  font-size: 18px;
 }
 
-.menu-nav__item{
-    padding-left: 46px;
+.menu-nav__item {
+  padding-left: 46px;
 }

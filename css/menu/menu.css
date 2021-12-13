@@ -1,9 +1,16 @@
-.menu{
-    padding: 0;
-    grid-column: span 3;
+.menu {
+  padding: 0;
+  margin: 0;
+  width: 266px;
 
-    display: flex;
-    justify-content: space-between;
+  grid-column: span 3;
 
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  font-family: Poppins;
+  font-weight: normal;
+  line-height: 21.09px;
+  font-size: 18px;
 }
