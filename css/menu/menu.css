@@ -1,0 +1,9 @@
+.menu{
+    padding: 0;
+    grid-column: span 3;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
