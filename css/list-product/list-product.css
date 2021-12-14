@@ -1,21 +1,99 @@
-.list-product__item-name{
-    font-family: Poppins;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23.44px;
+.list-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+
+  list-style: none;
 }
 
-.list-product__item-price{
-    font-family: Poppins;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21.09px;
+.list-product__item {
+  margin-bottom: 16px;
 }
 
-.list-product__item-weight{
-    font-family: Poppins;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14.06px;
-    
+.list-product__img-wrap {
+  width: 270px;
+  height: 197px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+
+.list-product__img-wrap1 {
+  background-color: #ffd400;
+}
+
+.list-product__img-wrap2 {
+  background-color: #ffe3e2;
+}
+
+.list-product__img-wrap3 {
+  background-color: rgba(245, 188, 91, 0.75);
+}
+
+.list-product__img-wrap4 {
+  background-color: #edf2f5;
+}
+
+.list-product__img-wrap5 {
+  background-color: rgba(246, 118, 109, 0.6);
+}
+
+.list-product__img-wrap6 {
+  background-color: #bed09b;
+}
+
+.list-product__img-wrap7 {
+  background-color: #ffbab5;
+}
+
+.list-product__img-wrap8 {
+  background-color: #e9f1f3;
+}
+
+.list-product__item-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-product__item-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-product__item-name {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
+.list-product__item-price {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.list-product__item-weight {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.list-product__button {
+  padding: 15px 37px;
+
+  font-family: Poppins;
+  font-weight: normal;
+  line-height: 21.09px;
+  font-size: 18px;
+
+  background-color: var(--lite-orange);
+  color: var(--dark-blue);
+  border: none;
+  border-radius: 8px;
 }

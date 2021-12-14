@@ -12,11 +12,11 @@
   border-radius: 33px;
 }
 
-.button--theme-orange{
+.button--theme-orange {
   background-color: var(--orange);
   color: var(--white);
 }
 
-.button--form-square{
+.button--form-square {
   border-radius: 15%;
 }
