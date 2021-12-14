@@ -1,0 +1,21 @@
+.list-product__item-name{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.list-product__item-price{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.list-product__item-weight{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14.06px;
+    
+}
