@@ -1,0 +1,29 @@
+.list-advantages{
+    list-style: none;
+    padding: 0;
+}
+
+.list-advantages__item{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.list-advantages__item-info{
+    margin-left: 26px;
+}
+
+.list-advantages__item-name{
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-family: Poppins;
+    color: var(--dark-blue);
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 700;
+}
+
+.list-advantages__text-desc{
+    margin: 0;
+}
