@@ -1,0 +1,54 @@
+.customer {
+  width: 826px;
+  height: 368px;
+
+  display: grid;
+  grid-template-columns: 61px 1fr 61px;
+
+  text-align: center;
+  align-items: center;
+
+  box-shadow: 0px 17px 121px rgba(0, 0, 0, 0.06),
+    0px 2.12866px 15.1511px rgba(0, 0, 0, 0.03);
+  border-radius: 64px;
+
+  position: relative;
+}
+
+.customer__button {
+  width: 61px;
+  height: 61px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--lite-orange);
+  border-radius: 50%;
+}
+
+.customer__button--status-disable {
+  background-color: var(--white);
+  border: solid 1px var(--lite-orange);
+}
+
+.cuctomer__button-img {
+  width: 10.5px;
+  height: 17px;
+}
+
+.customer__button-left {
+  grid-column: 1/2;
+  position: absolute;
+  left: -30px;
+}
+
+.customer__button-right {
+  grid-column: 3/4;
+  position: absolute;
+  right: -30px;
+}
+
+.customer__center {
+  grid-column: 2/3;
+}
