@@ -8,11 +8,47 @@
   text-align: center;
   align-items: center;
 
+  position: relative;
+}
+
+.customer__decorate-square {
   box-shadow: 0px 17px 121px rgba(0, 0, 0, 0.06),
     0px 2.12866px 15.1511px rgba(0, 0, 0, 0.03);
   border-radius: 64px;
 
-  position: relative;
+  position: absolute;
+}
+
+.customer__decorate-square--size-l {
+  width: 100%;
+  height: 100%;
+
+  background: var(--white);
+  z-index: -1;
+}
+
+.customer__decorate-square--size-m {
+  width: 704px;
+  height: 314px;
+
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  z-index: -2;
+
+  background: var(--white);
+}
+
+.customer__decorate-square--size-s {
+  width: 584px;
+  height: 260px;
+
+  position: absolute;
+  top: 153px;
+  left: 121px;
+  z-index: -3;
+
+  background: var(--white);
 }
 
 .customer__button {

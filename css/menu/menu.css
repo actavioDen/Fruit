@@ -3,8 +3,6 @@
   margin: 0;
   width: 266px;
 
-  grid-column: span 3;
-
   display: flex;
   justify-content: space-between;
 
@@ -16,14 +14,14 @@
   position: relative;
 }
 
-.menu::before{
+.menu::before {
   content: "";
   width: 646px;
   height: 1024px;
 
   position: absolute;
-  top:-46px;
-  left:-5px;
+  top: -46px;
+  left: -5px;
   z-index: -1;
 
   background-color: var(--lite-orange);

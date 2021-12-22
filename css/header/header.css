@@ -1,4 +1,4 @@
-.header{
+.header {
   min-height: 1024px;
 }
 .header__wrap {
@@ -23,13 +23,21 @@
   align-items: center;
 }
 
-.header__down{
+.header__down {
   grid-column: span 6;
 
   position: relative;
 }
 
-.header__img{
+.header__menu {
+  grid-column: span 3;
+}
+
+.header__menu-nav {
+  grid-column: span 7;
+}
+
+.header__img {
   position: absolute;
   top: 0;
   right: -830px;
