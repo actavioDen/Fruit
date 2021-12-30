@@ -1,5 +1,6 @@
 .header {
   min-height: 1024px;
+  background-color: var(--slight-orange);
 }
 .header__wrap {
   margin: 0 auto;
@@ -41,4 +42,5 @@
   position: absolute;
   top: 0;
   right: -830px;
+  z-index: 1;
 }

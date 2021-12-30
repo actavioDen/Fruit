@@ -12,17 +12,21 @@
   line-height: 21.09px;
   font-size: 18px;
   position: relative;
+
+  z-index: 1;
+
 }
 
-.menu::before {
+.menu::before{
   content: "";
   width: 646px;
-  height: 1024px;
+  height: 1070px;
 
   position: absolute;
   top: -46px;
   left: -5px;
-  z-index: -1;
 
   background-color: var(--lite-orange);
+
+  z-index: -1;
 }

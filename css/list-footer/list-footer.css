@@ -1,0 +1,25 @@
+.list-footer{    
+    margin: 0;
+    padding: 0;
+
+    max-width: 290px;
+    list-style: none;
+}
+
+.list-footer__item{
+    line-height: 28px;
+}
+
+.list-footer__title{
+    font-family: var(Poppins);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.list-footer__title--size-big{
+    margin: 18px 0;
+    text-align: center;
+    font-size: 31px;
+    line-height: 46.5px;
+}
