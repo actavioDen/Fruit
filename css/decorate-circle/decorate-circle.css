@@ -1,0 +1,22 @@
+.decorate-circle {
+  width: 680px;
+  height: 680px;
+
+  position: absolute;
+  box-sizing: border-box;
+
+  border: solid rgba(253, 184, 39, 0.23) 74px;
+  border-radius: 50%;
+}
+
+.decorate-circle--position-left {
+  left: -680px;
+  top: 10%;
+}
+
+.decorate-circle--position-right {
+  right: -340px;
+  top: 10%;
+
+  z-index: -1;
+}

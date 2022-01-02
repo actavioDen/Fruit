@@ -1,15 +1,15 @@
-.footer__wrap{
-    margin: 0 auto;
-    width: 1170px;
+.footer__wrap {
+  margin: 0 auto;
+  width: 1170px;
 }
 
-.footer__up{    
-    display: flex;
-    justify-content: space-between;
+.footer__up {
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer__down{
-    text-align: center;
+.footer__down {
+  text-align: center;
 
-    border-top: var(--silver) solid 1px;
+  border-top: var(--silver) solid 1px;
 }

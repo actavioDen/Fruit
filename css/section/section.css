@@ -1,10 +1,13 @@
-.section{
+.section {
   margin-top: 140px;
+  outline-offset: -1px;
 }
 
-.section__wrapper{
-  margin: 0 auto;  
+.section__wrapper {
+  margin: 0 auto;
   width: 1170px;
+
+  position: relative;
 }
 
 .section--type-double {
@@ -84,7 +87,7 @@
   margin: 0 auto;
 }
 
-.section--theme-orange{
+.section--theme-orange {
   background-color: var(--slight-orange);
   padding: 56px 0;
 }

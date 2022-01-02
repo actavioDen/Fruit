@@ -1,6 +1,6 @@
 .customer {
   width: 826px;
-  height: 368px;
+  min-height: 368px;
 
   display: grid;
   grid-template-columns: 61px 1fr 61px;
@@ -32,7 +32,6 @@
   width: 704px;
   height: 314px;
 
-  position: absolute;
   top: 80px;
   left: 60px;
   z-index: -2;
@@ -44,7 +43,6 @@
   width: 584px;
   height: 260px;
 
-  position: absolute;
   top: 153px;
   left: 121px;
   z-index: -3;
