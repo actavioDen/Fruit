@@ -5,6 +5,7 @@
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   list-style: none;
   font-family: Poppins;
@@ -14,10 +15,9 @@
   position: relative;
 
   z-index: 1;
-
 }
 
-.menu::before{
+.menu::before {
   content: "";
   width: 646px;
   height: 1070px;

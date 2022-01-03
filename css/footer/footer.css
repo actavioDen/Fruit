@@ -6,9 +6,12 @@
 .footer__up {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer__down {
+  margin-top: 100px;
+
   text-align: center;
 
   border-top: var(--silver) solid 1px;
